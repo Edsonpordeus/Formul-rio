@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+
+body::before{
+    content: '';
+    width: 100%;
+    height: 500px;
+    background-color: #293241;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+body{
+    width: 750px;
+    margin: auto;
+    background-color: #BFD7E4;  
+    font-family: "Poppins", sans-serif; 
+}
+
+header{
+    background-color: #293241;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+header h1 {
+    margin: 107px 0 0 0;
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 45px;
+    text-transform: uppercase;
+}
+
+header p {
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    
+}
+
+#image-head {
+    width: 180px;
+    margin: 32px auto;
+
+}
+
+#cabecalho {
+    background-color: #F67669;
+    border-radius: 10px 10px 0 0;
+    
+}
+
+
+#cabecalho legend {
+    padding: 50px 200px;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+span {
+    font-size: 12px;
+    color: #c6c6c6;
+}
+
+
+fieldset {
+    background-color: white;
+    border: none;
+    padding: 31px;
+}
+
+.pattern label {
+    color: #4E4958;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 7px;
+
+
+}
+
+.pattern input {
+    height: 55px;
+    border-radius: 8px;
+    border: solid 1px #E6E6F0;
+    padding: 0 10px 0 10px;
+    
+}
+
+.AA {
+    display: flex;
+    gap: 22px;
+    margin-bottom: 15px;
+}
+
+
+
+.half {
+    display: grid;
+    width: 50%;
+}
+
+.full {
+    display: grid;
+    width: 100%;
+}
+
+
+.professional h1 {
+    text-align: center;
+    color:#293241;    ;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    margin-bottom: 10px;
+}
+
+select {
+    height: 55px;
+    border-radius: 8px;
+    border: solid 1px #E6E6F0;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.flexi {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.flexi-row {
+    display:flex;
+    align-items: center;
+}
+
+#check-box {
+    width: 20px;
+    margin: 0 10px 0 0;
+}
+
+#check-label {
+    margin-bottom: 0;
+}
+
+#txt-mentor {
+    height: 166px;
+} 
+
+.agendando h1 {
+    text-align: center;
+    color:#293241;    ;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    margin-bottom: 10px;
+}
+
+.third {
+    display: grid;
+    width: 25%;
+}
+
+.agenda-dados {
+    display: flex;
+    gap: 22px;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    margin: 0 0 50px 0;
+    border-radius: 0 0 10px 10px;
+}
+
+button {
+    margin: 0 50px 50px 50px;
+    padding: 20px 300px;
+    height: 55px;
+    border: none;
+    background-color: #F67669;
+    border-radius: 8px;
+    color: white;
+
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    
+}
+
+button:hover {
+    background-color:  #f4877b;
+}
+
+.line {
+    border-top: solid 1px rgb(205, 205, 205);
+    width: 100%;
+    margin: 0 0 40px 0;
+}

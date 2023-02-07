@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <title>Avalie sua mentoria</title>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>Avalie a sua mentoria</h1>
+<p>Chegou a hora de avaliar o seu mentor. Bora lá?</p>
+<img id="image-head" src="images/satisfaction.svg" alt="">
+
+</header>
+
+<main>
+
+<form>
+    <div id="cabecalho">
+        <legend>Informações pessoais</legend>
+    </div> 
+
+ <fieldset class="person">
+
+    <div class="AA">
+        <div class="pattern half">
+            <label for="name"> Nome</label>
+            <input type="text" id="name">
+        </div>
+
+        <div class="pattern half">
+            <label for="surname"> Sobrenome</label>
+            <input type="text" id="surname">
+        </div>
+    </div>
+
+    <div class="BB">
+        <div class="pattern full">
+            <label for="mail"> Email <span>(Digite um email válido)</span></label>
+            <input type="email" id="mail" required>
+        </div>
+    </div>
+
+ </fieldset>
+
+ <fieldset class="professional">
+
+    <h1>Informações do mentor</h1>
+    <div class="line"></div>
+
+    <div class="pattern flexi">
+        <label for="professional-name"> Selecione o seu mentor</label>
+
+        <select name="professional-name" id="professional-name">
+            <option value="Tiburtino Afonso">Tiburtino Afonso</option>
+            <option value="Epaminondas Gleyson">Epaminondas Gleyson</option>
+            <option value="Manoel Sola">Manoel Sola</option>            
+          </select>
+    </div>
+
+
+
+    <div class="pattern flexi">
+        <label for="fback"> Feedback sobre seu mentor</label>
+        <input id="txt-mentor" type="text" id="fback">
+    </div>
+
+    <div class="pattern flexi-row">
+        <input type="checkbox" id="check-box">
+        <label id="check-label" for="check-box">Todas as minhas dúvidas foram esclarecidas durante a mentoria.</label>
+    </div>
+
+ </fieldset>
+
+ <fieldset class="agendando">
+
+    <h1>Agendando próxima mentoria</h1>
+    <div class="line"></div>
+    
+    <div class="agenda-dados">
+        <div class="pattern flexi half">
+            <label for="date"> Data <span>(DD/MM/AA)</span></label>
+            <input type="date" id="date">
+        </div>
+
+        <div class="pattern flexi third">
+            <label for="hour-begin"> Das</label>
+            <input type="time" id="hour-begin">
+        </div>
+
+        <div class="pattern flexi third">
+            <label for="hour-end">Até</label>
+            <input type="time" id="hour-end">
+        </div> 
+    </div>
+
+ </fieldset>
+ 
+    <div class="botao">
+        <button> Salvar</button>
+    </div>
+
+
+</form>
+
+</main>
+    
+<footer>
+
+</footer>
+
+</body>
+
+</html>
